@@ -1,0 +1,16 @@
+package ${package.Service};
+
+import org.springframework.stereotype.Component;
+
+/**
+ * <p>
+ * $!{table.comment} 服务类
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+@Component
+public class ${table.serviceName} extends BaseDAO<${table.mapperName}, ${table.entityName}> {
+
+}
