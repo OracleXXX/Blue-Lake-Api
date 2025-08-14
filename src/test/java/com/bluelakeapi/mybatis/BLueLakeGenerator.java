@@ -2,14 +2,15 @@ package com.bluelakeapi.mybatis;
 
 
 import org.junit.Test;
+import org.junit.platform.commons.util.StringUtils;
 
 /**
  * 脚本生成DAO相关文件
  */
-public class BLueLakeSchemaGenerator {
+public class BLueLakeGenerator {
 
     /**
-     * 测试表
+     * 测试表 如果文件已存在，会覆盖 慎用
      */
     @Test
     public void runTestData() {
