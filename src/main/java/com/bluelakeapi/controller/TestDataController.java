@@ -4,7 +4,6 @@ import com.bluelakeapi.dto.CommonResponse;
 import com.bluelakeapi.dto.request.ListTestDataRequest;
 import com.bluelakeapi.dto.response.ListTestDateResponse;
 import com.bluelakeapi.service.TestService;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,5 +22,4 @@ public class TestDataController {
 
         return CommonResponse.getSuccessResult(testService.listTestData(request));
     }
-
 }

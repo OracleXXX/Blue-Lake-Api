@@ -27,7 +27,7 @@ public enum CommonResponseStatus {
      */
     USER_NOT_EXIST(700, "user not exist"),
     /**
-     * 8XX 群组相关
+     * 8XX 权限相关
      */
     NO_CHANNEL_UNDER_GROUP(801, "no channel under the group"),
     USER_HAS_JOINED_GROUP(802, "user has joined the group"),

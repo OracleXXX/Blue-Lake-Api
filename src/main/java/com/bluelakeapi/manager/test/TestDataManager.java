@@ -39,7 +39,7 @@ public class TestDataManager extends BaseDAO<TestDataMapper, TestDataDO> {
      * @return
      */
     public PageInfo<TestDataDO> listTestData(Integer pageNumber, Integer pageSize) {
-        QueryWrapper<TestDataDO> queryWrapper = newQueryWrapper();
+        QueryWrapper<TestDataDO> queryWrapper = new QueryWrapper<>();
         queryWrapper.lambda()
                 .eq(TestDataDO::getIsDelete, DbConstant.IS_NOT_DEL);
 
